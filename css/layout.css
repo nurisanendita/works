@@ -636,7 +636,7 @@ ul#nav li.current a { color: #F06000; }
 
 /* popup modal */
 .popup-modal {
-	max-width: 550px;
+	width: 700px;
 	background: #fff;
 	position: relative;
 	margin: 0 auto;
@@ -649,12 +649,12 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: #424242;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   color: #424242;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
@@ -675,7 +675,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: #F06000; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -1143,7 +1143,7 @@ footer .social-links li:first-child { margin-left: 0; }
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: #9E9E9E;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;

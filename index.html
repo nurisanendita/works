@@ -34,7 +34,7 @@
 
    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
+	<link rel="shortcut icon" href="images/favicon.png" >
 
 </head>
 
@@ -63,7 +63,7 @@
          <div class="banner-text">
             <h1 class="responsive-headline">Hey, my name is Nuri</h1>
             <h2><span>and</span></h2>
-            <h3>I'm a UX Designer and Researcher.</h3>
+            <h3>I'm a UX Designer & UX Researcher.</h3>
             <div class="row">
               <div class="works">
                   <a href="#portfolio" class="smoothscroll button">SEE MY WORKS</a>
@@ -162,7 +162,7 @@
                         <img alt="" src="images/works/dss.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
-          					      <h4>DSS App</h4>
+          					      <h4>Moto Loan DSS App</h4>
                               <p>UI/UX Design</p>
           					   </div>
                         </div>
@@ -232,18 +232,16 @@
 	      --------------------------------------------------------------- -->
 
          <div id="modal-01" class="popup-modal mfp-hide">
-           <div class="slideshow-container">
+           <div class="slideshow-container slider" id="div1">
              <div class="mySlides fade">
                <img src="images/portfolio/modals/m-coffee.jpg" alt="" />
              </div>
              <div class="mySlides fade">
                <img src="images/portfolio/modals/m-console.jpg" alt="" />
              </div>
-             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-             <a class="next" onclick="plusSlides(1)">&#10095;</a>
+             <a class="prev" onclick="plusDivs(this,-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+             <a class="next" onclick="plusDivs(this,1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
            </div>
-
-
 
 		      <div class="description-box">
 			      <h4>Coffee Cup</h4>
@@ -260,12 +258,24 @@
 
          <div id="modal-02" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+           <div class="slideshow-container slider" id="div2">
+             <div class="mySlides fade">
+               <img src="images/works/modals/bems1.png" alt="Smart Building Dashboard" />
+             </div>
+             <div class="mySlides fade">
+               <img src="images/works/modals/bems2.png" alt="Smart Building Dashboard " />
+             </div>
+             <a class="prev" onclick="plusDivs(this,-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+             <a class="next" onclick="plusDivs(this,1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+           </div>
 
 		      <div class="description-box">
 			      <h4>Smart Building</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>ux design, ux research, webdev, webdesign</span>
+			      <p>
+              These dashboard pages are about to display the use of room electricity and indoor environment,
+              and also to control room electronic appliances such as AC and lamps. The dashboard page only show for
+              registered user after login.
+            </p>
 		      </div>
 
             <div class="link-box">
@@ -277,16 +287,29 @@
 
          <div id="modal-03" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+           <div class="slideshow-container slider" id="div3">
+             <div class="mySlides fade">
+               <img src="images/works/modals/pkt1.png" alt="Room Agenda Landing Page" />
+             </div>
+             <div class="mySlides fade">
+               <img src="images/works/modals/pkt2.png" alt="Photos Landing Page" />
+             </div>
+             <a class="prev" onclick="plusDivs(this,-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+             <a class="next" onclick="plusDivs(this,1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+           </div>
 
 		      <div class="description-box">
-			      <h4>Smart Building</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>ux design, ux research, webdev, webdesign</span>
+			      <h4>My Internship Work</h4>
+			      <p>
+              This web will display the agenda space and activities. This is also displayed
+              photo documentation of company's activities. This web is built for internal services,
+              so it doesn't published for public uses.
+            </p>
+
 		      </div>
 
             <div class="link-box">
-               <a href="http://smartbuilding.wg.ugm.ac.id/">Details</a>
+               <a href="https://github.com/nuritharra/dmpweb">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -294,16 +317,28 @@
 
          <div id="modal-04" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+           <div class="slideshow-container slider" id="div4">
+             <div class="mySlides fade">
+               <img src="images/works/modals/cinelook1.png" alt="" />
+             </div>
+             <div class="mySlides fade">
+               <img src="images/works/modals/cinelook2.png" alt="" />
+             </div>
+             <a class="prev" onclick="plusDivs(this,-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+             <a class="next" onclick="plusDivs(this,1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+           </div>
 
 		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+			      <h4>Cinelook (Prototypes)</h4>
+			      <p>
+              Cinelook is a mobile app for booking and buying movie tickets.
+              This application allows user/costumers to buy cinema tickets from anywhere and anytime
+               without having to queue up. This app was designed by user-centered design approach.
+            </p>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
+               <a href="https://invis.io/FU98766B2">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -311,16 +346,35 @@
 
          <div id="modal-05" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+           <div class="slideshow-container slider" id="div5">
+             <div class="mySlides fade">
+               <img src="images/works/modals/dss1.png" alt="" />
+             </div>
+             <div class="mySlides fade">
+               <img src="images/works/modals/dss2.png" alt="" />
+             </div>
+             <div class="mySlides fade">
+               <img src="images/works/modals/dss3.png" alt="" />
+             </div>
+             <div class="mySlides fade">
+               <img src="images/works/modals/dss4.png" alt="" />
+             </div>
+             <a class="prev" onclick="plusDivs(this,-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+             <a class="next" onclick="plusDivs(this,1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+           </div>
 
 		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+			      <h4>Moto Loan DSS App</h4>
+			      <p>
+              This is a desktop app for decision support systems,
+              was built with C# and XML for its user interface.
+              Its objective is to support decision making for choosing the best vehicle loans,
+              specially motorcycle. My job is to design the user interface and code it in XML.
+            </p>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
+               <a href="https://drive.google.com/open?id=0B0Sw3x3-aYyLaExaLWRiX3pWWU0">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -328,12 +382,22 @@
 
          <div id="modal-06" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+           <div class="slideshow-container slider" id="div6">
+             <div class="mySlides fade">
+               <img src="images/works/modals/jamila1.png" alt="" />
+             </div>
+             <div class="mySlides fade">
+               <img src="images/works/modals/jamila2.png" alt="" />
+             </div>
+             <a class="prev" onclick="plusDivs(this,-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+             <a class="next" onclick="plusDivs(this,1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+           </div>
 
 		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+			      <h4>Jamila (Prototypes)</h4>
+			      <p>
+              This mobile app is about ...
+            </p>
 		      </div>
 
             <div class="link-box">
@@ -345,12 +409,22 @@
 
          <div id="modal-07" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+           <div class="slideshow-container slider" id="div7">
+             <div class="mySlides fade">
+               <img src="images/works/modals/kelip1.png" alt="" />
+             </div>
+             <div class="mySlides fade">
+               <img src="images/works/modals/kelip2.png" alt="" />
+             </div>
+             <a class="prev" onclick="plusDivs(this,-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+             <a class="next" onclick="plusDivs(this,1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+           </div>
 
 		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+			      <h4>Kelip (Prototypes)</h4>
+			      <p>
+              This app is about...
+            </p>
 		      </div>
 
             <div class="link-box">
@@ -362,12 +436,22 @@
 
          <div id="modal-08" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+           <div class="slideshow-container slider" id="div8">
+             <div class="mySlides fade">
+               <img src="images/works/modals/bdonor1.png" alt="" />
+             </div>
+             <div class="mySlides fade">
+               <img src="images/works/modals/bdonor2.png" alt="" />
+             </div>
+             <a class="prev" onclick="plusDivs(this,-1)"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+             <a class="next" onclick="plusDivs(this,1)"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+           </div>
 
 		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+			      <h4>B-Donor (Prototypes)</h4>
+			      <p>
+              This app is about...
+            </p>
 		      </div>
 
             <div class="link-box">
@@ -523,7 +607,7 @@
           If you have available job position about UI/UX Designer or UX Researcher,
           you can offered me by sending an email through this section below or
           email to <a style="color:#F06000;" href="mailto:nuri.sanendita@gmail.com">nuri.sanendita@gmail.com</a>.
-          You can also asking question about me or my works. Thank you!
+          You can also ask questions about me or my works. Thank you!
         </p>
       </div>
      </div>
@@ -615,7 +699,10 @@
             </ul>
 
             <ul class="copyright">
-               <li style="color:#9E9E9E">&copy; 2017 Nuri Sanendita. I created this web with <i class="fa fa-heart" aria-hidden="true"></i></li>
+               <li style="line-height:0.1em; color:#9E9E9E">&copy; 2017 Nuri Sanendita
+                 <img style="" src="images/logo2.png" alt="" />
+                 I created this web with <i class="fa fa-heart" aria-hidden="true"></i>
+               </li>
             </ul>
 
          </div>
