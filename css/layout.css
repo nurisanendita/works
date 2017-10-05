@@ -1002,15 +1002,23 @@ call-to-action .button {
 	color: #11ABB0;
 	font-size: 18px;
 }
-#message-warning, #message-success {
+#message-success {
    display: none;
-	background: #0F0F0F;
+	background: none;
 	padding: 24px 24px;
 	margin:0px;
 
 }
-#message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-warning {
+   display: none;
+	background: none;
+  position: relative;
+  bottom: 58px;
+  left: 400px;
+  width: 280px;
+}
+#message-warning { font-size: 16px; color: #D72828; }
+#message-success { font-size: 16px; color: #11ABB0; }
 
 #message-warning i,
 #message-success i {

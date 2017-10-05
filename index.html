@@ -622,11 +622,11 @@
 
          <div class="row">
 
-            <div class="nine columns">
+            <div class="ten columns">
 
                <!-- form -->
-               <form action="inc/sendEmail.php" method="post" id="contactForm" name="contactForm">
-					<fieldset>
+               <form action="" method="post" id="contactForm" name="contactForm">
+
 
                   <div>
 						   <label for="contactName">Name <span class="required">*</span></label>
@@ -645,22 +645,23 @@
 
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="5" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea rows="4" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
-                     <button class="submit">Send</button>
+                     <button  class="submit">Send</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
                      </span>
+                     <span>
+                       <!-- contact-warning -->
+                       <div id="message-warning"> Error boy</div>
+                     </span>
                   </div>
 
-					</fieldset>
 				   </form> <!-- Form End -->
         </div>
-        <div class="three columns">
-          <!-- contact-warning -->
-          <div id="message-warning"> Error boy</div>
+        <div class="twelve columns">
           <!-- contact-success -->
           <div id="message-success">
             <i class="fa fa-check"></i>Your message was sent, thank you!<br>
@@ -698,7 +699,6 @@
          <div class="twelve columns">
 
             <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                <li><a href="https://twitter.com/sanendita"><i class="fa fa-twitter"></i></a></li>
                <li><a href="https://plus.google.com/u/0/+NuriTharraSanendita"><i class="fa fa-google-plus"></i></a></li>
                <li><a href="https://www.linkedin.com/in/nuri-sanendita/"><i class="fa fa-linkedin"></i></a></li>
@@ -713,7 +713,7 @@
                  <img style="width:16px; height:16px;" src="images/logo2.png" alt="" />
                </li>
                <li style="color:#9E9E9E">
-                 All rights reserved <i class="fa fa-heart" aria-hidden="true"></i>
+                 All rights reserved
                </li>
             </ul>
 
